@@ -7,7 +7,7 @@
 
 # src code references
 source_code='
-  ../PC1.cpp
+  ../matrix.cpp
   test_1_1.cpp
   '
 

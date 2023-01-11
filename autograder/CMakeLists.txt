@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.19.2)
+cmake_minimum_required(VERSION 3.10.2)
 project(prog3_unit1_tarea_introductoria_v2022_1_test)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -10,7 +10,7 @@ endif()
 # Work Folders
 include_directories(.)
 include_directories(tests)
-include_directories(../tools/catch)
+include_directories(../tools)
 
 # Project files
 file(GLOB project_files
