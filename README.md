@@ -86,8 +86,8 @@ Desarrollar una matriz que permita realizar las siguientes operaciones:
     cin >> rows >> cols;
     utec::matrix m2(rows, cols);
     for (size_t i = 0; i < m2.rows(); ++i)
-    for (size_t j = 0; j < m2.cols(); ++j)
-    cin >> m2(i, j);
+        for (size_t j = 0; j < m2.cols(); ++j)
+            cin >> m2(i, j);
     cin >> rows >> cols;
     utec::matrix m3(rows, cols);
     for (size_t i = 0; i < m3.rows(); ++i)
