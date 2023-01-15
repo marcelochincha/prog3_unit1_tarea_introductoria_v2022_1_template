@@ -5,8 +5,7 @@
 
 # src code references
 source='cppcheck.cpp
-  ../redirect_io.h 
   ../matrix.h ../matrix.cpp
   '
 
-cppcheck ${source} -x c++ --enable=all --inconclusive --verbose --suppressions-list=suppressions.txt
+cppcheck ${source} -x c++ --enable=all --verbose --check-config --suppressions-list=suppressions.txt
