@@ -25,7 +25,8 @@ static void question_1_2() {
     utec::matrix m3 = m1;
     cout << m1.rows() << " " << m1.cols() << endl;
     cout << m2.rows() << " " << m2.cols() << endl;
-    swap(m1, m2);
+    std::swap(m1, m2);
+    m2(0, 0) = 99;
     cout << m1.rows() << " " << m1.cols() << endl;
     cout << m2.rows() << " " << m2.cols() << endl;
     cout << m1 << endl << m2 << endl << m3 <<endl;
