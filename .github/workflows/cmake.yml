@@ -52,6 +52,7 @@ jobs:
     - name: CppCheck Test
       working-directory: ${{github.workspace}}/autograder/tests/cppcheck
       run: |
+           cp ../../../matrix.* ../..
            chmod +x run_test
            ./run_test
 
