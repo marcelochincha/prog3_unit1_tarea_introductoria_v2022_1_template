@@ -10,6 +10,17 @@ using namespace std;
 void question_1_1(){
     // Definir aqui alguno de los casos de usos
 
+    // Constructor por parametros
+    matrix m1(4, 5);
+    cout << "DONE!";
+    // Ingreso de datos
+    for (int i = 0; i < m1.rows(); ++i) {
+        for (int j = 0; j < m1.cols(); ++j) {
+            m1(i, j) = 1;
+        }
+    }
+    // Impresion de libreria
+    std::cout << m1;
 }
 
 void question_1_2(){
