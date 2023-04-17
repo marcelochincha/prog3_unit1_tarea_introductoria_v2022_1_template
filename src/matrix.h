@@ -27,6 +27,17 @@ class matrix
 
         int get(int i, int j) const;
         int& operator()(int i, int j);
+        
+        bool operator==(const matrix &other);
+        bool operator!=(const matrix &other);
+
+        matrix& operator+(const matrix &other);
+        matrix& operator*(const matrix &other);
+        matrix& operator*(const int c);
+
+        matrix& operator+=(const matrix &other);
+        matrix& operator*=(const matrix &other);
+        matrix& operator*=(const int c);
 
         friend std::ostream& operator<<(std::ostream& os, const matrix& m);    
 };
